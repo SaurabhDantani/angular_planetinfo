@@ -1,0 +1,12 @@
+
+  <div class="logo-slider relative overflow-hidden w-1/2 ml-24 lg:ml-96">
+  <div class="logo-container">
+    <div class="marquee flex" [style.animation-duration]="imageDisplayDuration + 'ms'">
+      <ng-container *ngFor="let logo of logos; let i = index">
+        <div class="flex marquee-item" [style.animation-delay]="i * imageDisplayDuration + 'ms'">
+          <img class="w-full h-full p-2" [src]="logo.url" alt="Client Logo" style="width: 100%; height: 100%;">
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>
