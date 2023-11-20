@@ -14,6 +14,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FuelMonitoringComponent } from './products/fuel-monitoring/fuel-monitoring.component';
+import { GpstrackersComponent } from './products/gpstrackers/gpstrackers.component';
+import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.component';
+import { CamerasComponent } from './products/cameras/cameras.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { FuelMonitoringComponent } from './products/fuel-monitoring/fuel-monitor
     LogoComponent,
     ProductsComponent,
     FuelMonitoringComponent,
+    GpstrackersComponent,
+    FuelManagerComponent,
+    CamerasComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,9 @@ import { FleetManangmentComponent } from './products/fleet-manangment/fleet-mana
 import { FuelMonitoringComponent } from './products/fuel-monitoring/fuel-monitoring.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { DemoComponent } from './pages/demo/demo.component';
+import { GpstrackersComponent } from './products/gpstrackers/gpstrackers.component';
+import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.component';
+import { CamerasComponent } from './products/cameras/cameras.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -17,6 +20,10 @@ const routes: Routes = [
   {path: 'fuel', component:FuelMonitoringComponent},
   {path: 'hero', component:HeroComponent},
   {path: 'demo', component:DemoComponent},
+  {path: 'gpstrackers', component:GpstrackersComponent},
+  {path: 'fuelmanager', component:FuelManagerComponent},
+  {path: 'cameras', component:CamerasComponent},
+
 ];
 
 @NgModule({

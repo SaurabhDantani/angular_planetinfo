@@ -20,17 +20,23 @@ export class NavbarComponent {
         {
           title: 'GPS Trackers',
           icon: '../../../assets/truck.png',
-          url: '/fuel',
+          url: '/gpstrackers',
           description: 'GPS tracking, trip & inventory management'
+        },
+        {
+          title: 'Cameras',
+          icon: '../../../assets/truck.png',
+          url: '/cameras',
+          description: 'security camera system designed to provide superior image'
         },
       ],
 
       secondSubItems: [
         {
-          title: 'Fleet Management Solution',
+          title: 'Fuel Monitors',
           icon: '../../../assets/truck.png',
-          url: '/fleet',
-          description: 'GPS tracking, trip & inventory management'
+          url: '/fuelmanager',
+          description: 'Omnicomm Digital Sensor is a semi-automatic industrial device'
         },
       ],
 
