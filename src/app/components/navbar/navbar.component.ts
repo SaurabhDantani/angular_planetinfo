@@ -42,4 +42,34 @@ export class NavbarComponent {
 
     },
   ];
+
+  secondMegaMenuItems: any[] = [
+    {
+      title: 'Solution',
+      firstMegaSubItems: [
+        {
+          title: 'Fleet Management Solution',
+          icon: '../../../assets/truck.png',
+          url: '/fleet',
+          description: 'GPS tracking, trip & inventory management'
+        },
+        // {
+        //   title: 'Cameras',
+        //   icon: '../../../assets/truck.png',
+        //   url: '/cameras',
+        //   description: 'security camera system designed to provide superior image'
+        // },
+      ],
+
+      secondMegaSubItems: [
+        {
+          title: 'Transpotation',
+          icon: '../../../assets/truck.png',
+          url: '/fuel',
+          description: 'Improve Turnnaround Time, Increase Tripe'
+        },
+      ],
+
+    },
+  ];
 }
