@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-
+  footerMenu: any[] = [
+    { label: 'Home', link: '/' },
+    { label: 'About Us', link: '/about' },
+    { label: 'Gps Trackers', link: '/gpstrackers' },
+    { label: 'Fuel Sensores', link: '/fuelmanager' },
+    { label: 'Cameras', link: '/cameras' },
+  ];
 }
