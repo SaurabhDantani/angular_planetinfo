@@ -21,13 +21,13 @@ export class NavbarComponent {
           title: 'GPS Trackers',
           icon: '../../../assets/truck.png',
           url: '/gpstrackers',
-          description: 'GPS tracking, trip & inventory management'
+          description: ''//'GPS tracking, trip & inventory management'
         },
         {
           title: 'Cameras',
           icon: '../../../assets/truck.png',
           url: '/cameras',
-          description: 'security camera system designed to provide superior image'
+          description: ''//'security camera system designed to provide superior image'
         },
       ],
 
@@ -36,7 +36,7 @@ export class NavbarComponent {
           title: 'Fuel Monitors',
           icon: '../../../assets/truck.png',
           url: '/fuelmanager',
-          description: 'Omnicomm Digital Sensor is a semi-automatic industrial device'
+          description: ''//'Omnicomm Digital Sensor is a semi-automatic industrial device'
         },
       ],
 
@@ -51,7 +51,7 @@ export class NavbarComponent {
           title: 'Fleet Management Solution',
           icon: '../../../assets/truck.png',
           url: '/fleet',
-          description: 'GPS tracking, trip & inventory management'
+          description: ''//'GPS tracking, trip & inventory management'
         },
         // {
         //   title: 'Cameras',
@@ -66,7 +66,7 @@ export class NavbarComponent {
           title: 'Transpotation',
           icon: '../../../assets/truck.png',
           url: '/fuel',
-          description: 'Improve Turnnaround Time, Increase Tripe'
+          description: ''//'Improve Turnnaround Time, Increase Tripe'
         },
       ],
 

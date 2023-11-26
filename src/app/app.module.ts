@@ -17,6 +17,7 @@ import { FuelMonitoringComponent } from './products/fuel-monitoring/fuel-monitor
 import { GpstrackersComponent } from './products/gpstrackers/gpstrackers.component';
 import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.component';
 import { CamerasComponent } from './products/cameras/cameras.component';
+import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { CamerasComponent } from './products/cameras/cameras.component';
     GpstrackersComponent,
     FuelManagerComponent,
     CamerasComponent,
+    TeltonikaGpsComponent,
   ],
   imports: [
     BrowserModule,
