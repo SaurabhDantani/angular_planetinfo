@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -18,6 +18,8 @@ import { GpstrackersComponent } from './products/gpstrackers/gpstrackers.compone
 import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.component';
 import { CamerasComponent } from './products/cameras/cameras.component';
 import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.component';
+import { NgxSpinnerModule  } from 'ngx-spinner'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,13 @@ import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.co
     BrowserModule,
     AppRoutingModule,
     CommonModule,
+    BrowserAnimationsModule,
+    // NgxSpinnerModule.forRoot({
+    //   type:"ball-spin-clockwise",
+    // }),
+    NgxSpinnerModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

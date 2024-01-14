@@ -11,6 +11,7 @@ import { GpstrackersComponent } from './products/gpstrackers/gpstrackers.compone
 import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.component';
 import { CamerasComponent } from './products/cameras/cameras.component';
 import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.component';
+import { VideocarasouleComponent } from './components/videocarasoule/videocarasoule.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path: 'gpstrackers', component:GpstrackersComponent},
   {path: 'fuelmanager', component:FuelManagerComponent},
   {path: 'cameras', component:CamerasComponent},
-  {path: 'teltonika', component:TeltonikaGpsComponent}
+  {path: 'teltonika', component:TeltonikaGpsComponent},
+  {path: 'loader', component:VideocarasouleComponent},
 
 ];
 

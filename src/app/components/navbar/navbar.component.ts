@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  menuOpen: boolean = false;
+
+  closeMenu() {
+    this.menuOpen = false;
+  }
 
   normalMenuItems: any[] = [
     { label: 'Home', link: '/' },
@@ -21,13 +26,13 @@ export class NavbarComponent {
           title: 'GPS Trackers',
           icon: '../../../assets/truck.png',
           url: '/gpstrackers',
-          description: ''//'GPS tracking, trip & inventory management'
+          description: 'GPS tracking, trip & inventory management'
         },
         {
           title: 'Cameras',
           icon: '../../../assets/truck.png',
           url: '/cameras',
-          description: ''//'security camera system designed to provide superior image'
+          description: 'security camera system designed to provide superior image'
         },
       ],
 
@@ -36,7 +41,7 @@ export class NavbarComponent {
           title: 'Fuel Monitors',
           icon: '../../../assets/truck.png',
           url: '/fuelmanager',
-          description: ''//'Omnicomm Digital Sensor is a semi-automatic industrial device'
+          description: 'Omnicomm Digital Sensor is a semi-automatic industrial device'
         },
       ],
 
@@ -72,4 +77,9 @@ export class NavbarComponent {
 
     },
   ];
+
+  openWhatsApp(){
+    const api = "https://wa.me/917567358252?"
+    window.location.href =api
+  }
 }
