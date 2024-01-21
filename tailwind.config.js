@@ -4,12 +4,18 @@ module.exports = {
     './src/**/*.{html,ts}',
     './node_modules/flowbite/**/*.js',
   ],
+  darkMode: 'class', // Enable dark mode using class
+
   theme: {
-    extend: {},    
+    extend: {
+      colors: {
+        dark: '#333333',
+        // Add other dark mode colors as needed
+      },
+    },
   },
   plugins: [
     require('tailwindcss-animated'),
     require('flowbite/plugin'),
   ],  
 }
-

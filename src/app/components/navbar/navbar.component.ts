@@ -78,8 +78,8 @@ export class NavbarComponent {
     },
   ];
 
-  openWhatsApp(){
-    const api = "https://wa.me/917567358252?"
+  openWhatsApp(){    
+    const api = "https://wa.me/919974591860?"
     window.location.href =api
   }
 }

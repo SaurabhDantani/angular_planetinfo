@@ -6,14 +6,14 @@ import { AboutComponent } from './pages/about/about.component';
 import { FleetManangmentComponent } from './products/fleet-manangment/fleet-manangment.component';
 import { FuelMonitoringComponent } from './products/fuel-monitoring/fuel-monitoring.component';
 import { HeroComponent } from './components/hero/hero.component';
-import { DemoComponent } from './pages/demo/demo.component';
 import { GpstrackersComponent } from './products/gpstrackers/gpstrackers.component';
 import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.component';
 import { CamerasComponent } from './products/cameras/cameras.component';
 import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.component';
-import { VideocarasouleComponent } from './components/videocarasoule/videocarasoule.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
+  
   {path: 'home', component: HomeComponent},
   {path: 'nav', component: NavbarComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -21,12 +21,11 @@ const routes: Routes = [
   {path: 'fleet', component:FleetManangmentComponent},
   {path: 'fuel', component:FuelMonitoringComponent},
   {path: 'hero', component:HeroComponent},
-  {path: 'demo', component:DemoComponent},
   {path: 'gpstrackers', component:GpstrackersComponent},
   {path: 'fuelmanager', component:FuelManagerComponent},
   {path: 'cameras', component:CamerasComponent},
   {path: 'teltonika', component:TeltonikaGpsComponent},
-  {path: 'loader', component:VideocarasouleComponent},
+  {path: 'contact', component:ContactComponent},
 
 ];
 
