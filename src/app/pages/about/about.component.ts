@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-
+  openWhatsApp(){    
+    const api = "https://wa.me/919974591860?"
+    window.location.href =api
+  }
 }
