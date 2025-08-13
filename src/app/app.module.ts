@@ -19,6 +19,7 @@ import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.co
 import { NgxSpinnerModule  } from 'ngx-spinner'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './pages/contact/contact.component';
+import { PrivacyComponent } from './pages/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     CamerasComponent,
     TeltonikaGpsComponent,
     ContactComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,

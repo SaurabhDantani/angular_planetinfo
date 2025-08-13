@@ -11,26 +11,26 @@ import { FuelManagerComponent } from './products/fuel-manager/fuel-manager.compo
 import { CamerasComponent } from './products/cameras/cameras.component';
 import { TeltonikaGpsComponent } from './products/teltonika-gps/teltonika-gps.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { PrivacyComponent } from './pages/privacy/privacy.component';
 
 const routes: Routes = [
-  
-  {path: 'home', component: HomeComponent},
-  {path: 'nav', component: NavbarComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'about', component: AboutComponent},
-  {path: 'fleet', component:FleetManangmentComponent},
-  {path: 'fuel', component:FuelMonitoringComponent},
-  {path: 'hero', component:HeroComponent},
-  {path: 'gpstrackers', component:GpstrackersComponent},
-  {path: 'fuelmanager', component:FuelManagerComponent},
-  {path: 'cameras', component:CamerasComponent},
-  {path: 'teltonika', component:TeltonikaGpsComponent},
-  {path: 'contact', component:ContactComponent},
-
+  { path: 'home', component: HomeComponent },
+  { path: 'nav', component: NavbarComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'about', component: AboutComponent },
+  { path: 'fleet', component: FleetManangmentComponent },
+  { path: 'fuel', component: FuelMonitoringComponent },
+  { path: 'hero', component: HeroComponent },
+  { path: 'gpstrackers', component: GpstrackersComponent },
+  { path: 'fuelmanager', component: FuelManagerComponent },
+  { path: 'cameras', component: CamerasComponent },
+  { path: 'teltonika', component: TeltonikaGpsComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'privacy', component: PrivacyComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
